@@ -1,6 +1,4 @@
-Rails.application.routes.draw do
-  get 'comments/create'
-  get 'comments/destroy'
+Rails.application.routes.draw do  
   resources :shots do 
   	resources :comments 
   	member do 

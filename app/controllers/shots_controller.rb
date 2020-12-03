@@ -11,7 +11,7 @@ class ShotsController < ApplicationController
 
   # GET /shots/1
   # GET /shots/1.json
-  def show
+  def show    
   end
 
   # GET /shots/new
